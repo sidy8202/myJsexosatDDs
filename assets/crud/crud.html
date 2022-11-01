@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Application in Js</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container mt-5" style="background-color: #1d2630;  color : white">
+        <div class="text-center">
+            <h1 class="display-5 mb-5"> CRUD APPLICATION</h1>
+        </div>
+
+        <div class="main row justify-content-center">
+
+            <form action="" id="student-form" class="row justify-content-center mb-4" autocomplete="off">
+                
+                <div class="col-10 col-md-8 mb-3">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+
+                </div>
+
+                <div class="col-10 col-md-8 mb-3">
+                    <label for="firstName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+                </div>
+
+                <div class="col-10 col-md-8 mb-3">
+                    <label for="firstName">Roll number</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter Roll Number">
+                </div>
+
+                <div class="col-10"col-md-8 >
+                    <input type="submit" class="btn btn-success add-btn" id="lastName" value = "Submit">
+                </div>
+            </form>
+
+            <div class="col-12 col-md-10 mt-5">
+
+                <table class="table table-stripped table-dark">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>ROll Number</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="student-list">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <a href="" class="btn btn-sm btn-warning">Edit</a>
+                                <a href="" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="assets/js/crud"></script>    
+</body>
+</html>
